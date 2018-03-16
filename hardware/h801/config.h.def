@@ -1,0 +1,3 @@
+#define STA_SSID    ""
+#define STA_PWD     ""
+#define IS_AP       false

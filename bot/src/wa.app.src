@@ -1,0 +1,23 @@
+{application, wa,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    inets,
+    sasl,
+    lager,
+    asn1,
+    ssl,
+    public_key,
+    crypto,
+    gun,
+    jsx,
+    erlexec
+   ]},
+  {mod, { wa_app, []}},
+  {env, []}
+ ]}.

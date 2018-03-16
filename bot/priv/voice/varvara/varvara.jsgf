@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar varvara;
+
+<greeting> = (варвара|варенька|варюша|варя);
+<action> = (сделай|включи|выключи);
+<object> = свет;
+<argument> = [тише|ярче|красным|синим|зеленым|желтым|голубым|фиолетовым];
+<cmd> = <action> <object> <argument>;
+public <query> = <greeting> <cmd>;
